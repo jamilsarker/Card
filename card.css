@@ -1,0 +1,43 @@
+body{
+    max-width: 1170px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+.card-section{
+  text-align: center
+  ;  
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap:wrap ;
+}
+.card {
+    width:300px;
+    border: 2px solid sandybrown;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 10px 10px 10px black;
+    text-align: left;
+}
+.card img{
+    width: 100%;
+    border-radius: 25px;
+   
+}
+.card h3{
+   font-size: 1.25em;
+   font-family: 'Courier New', Courier, monospace; 
+   font-weight: 700;
+}
+.card button{
+    background-color: rgb(231, 76, 76);  
+    border-radius: 25px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card button:hover{
+    color:pink;
+}
+.card:hover{
+    color: aqua;
+}
